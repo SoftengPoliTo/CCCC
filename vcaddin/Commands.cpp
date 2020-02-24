@@ -187,8 +187,8 @@ void CCommands::runProcess(const std::string& commandLine)
         NULL,             // Thread handle not inheritable. 
         FALSE,            // Set handle inheritance to FALSE. 
         0,                // No creation flags. 
-        NULL,             // Use parent’s environment block. 
-        NULL,             // Use parent’s starting directory. 
+        NULL,             // Use parent's environment block. 
+        NULL,             // Use parent's starting directory. 
         &si,              // Pointer to STARTUPINFO structure.
         &pi )             // Pointer to PROCESS_INFORMATION structure.    ) 
 	)
