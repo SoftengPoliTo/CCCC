@@ -7,7 +7,7 @@ SRC=genmk.c
 OBJ=genmk.o
 # Define PC if you use a PC OS (changes directory symbol and object file extension)
 # see pccts/h/pcctscfg.h
-# CFLAGS=-I../../h -DPC
+CFLAGS=-I../../h -DPC
 
 IFLAGS = -I../../h
 CC ?= cc
